@@ -18,21 +18,21 @@ def main():
         print("Incorrect!")
 
     answer = input("What is Steven's favourite food? ")
-    if answer.lower() == "hot wings":
+    if answer.lower() == "hot wings" or "hotwings":
         print('Correct!')
         score += 1
     else:
         print("Incorrect!")
 
     answer = input("What brand is Steven Seagal's orange tinted glasses? ")
-    if answer.lower() == "oakley":
+    if answer.lower() == "oakley" or "oakley's" or "oakleys":
         print('Correct!')
         score += 1
     else:
         print("Incorrect!")
 
     answer = input("What type of hairline does Steven have? ")
-    if answer.lower() == "receding":
+    if answer.lower() == "receding" or "balding":
         print('Correct!')
         score += 1
     else:
