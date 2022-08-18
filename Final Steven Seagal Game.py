@@ -36,5 +36,12 @@ if answer.lower() == "receding":
 else:
     print("Incorrect!")
 
+answer = input("How many wives has Steven gone through? ")
+if answer.lower() == "four":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
 print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+print("You got " + str((score / 5) * 100) + "%.")
